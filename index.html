@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Photo Gallery</a>
+        </div>
+    </nav>
+    <div class="container">
+        <img id="myth" src="Screenshot%202020-12-03%20225922.jpg">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h4 id="imggrid" class="text-capitalize"><kbd>grid gallery</kbd></h4>
+        <hr>
+        <div class="row">
+            <div classs="column">
+                <img id="pheonix" src="Phoenix.jpg">
+                <img id="Unicorns" src="Unicorn.jpg">
+                <img id="Peryton" src="Peryton.jpg">
+                <img id="narwhal" src="Narwhal.jpg">
+            </div>
+            <br>
+            <div classs="column">
+                <img id="snow" src="Mythical%20snow%20leopard.jpg">
+                <img id="pegasus" src="Pegsus.jpg">
+                <img id="dragon" src="Dragon.jpg">
+                <img id="hippogriff" src="Hippogriff.jpg">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class=container>
+        <h4 id="imgslide" class="text-capitalize"><kbd>sliding gallery</kbd></h4>
+        <hr>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" data-target="#mycarousel">
+                <div class="item-active">
+                        <img src="Phoenix.jpg" style="width:100%;" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Phoenix</h3>
+                    </div>
+                </div>
+                <div class="item">
+                        <img src="Unicorn.jpg" style="width:100%;" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Unicorn</h3>
+                    </div>
+                </div>
+                <div class="item">
+                        <img id="2" src="Peryton.jpg" style="width:100%;" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Peryton</h3>
+                    </div>
+                </div>
+                <div class="item">
+                        <img src="Narwhal.jpg" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Narwhal</h3>
+                    </div>
+                </div>
+                <div class="item">
+                        <img src="Mythical%20snow%20leopard.jpg" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Mythical Snow Leopard</h3>
+                    </div>
+                </div>
+                <div class="item">
+                        <img src="Pegsus.jpg" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Pegasus</h3>
+                    </div>
+                </div>
+                <div class="item">
+                        <img src="Dragon.jpg" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Dragon</h3>
+                    </div>
+                </div>
+                <div class="item">
+                        <img src="Hippogriff.jpg" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Hippogriff</h3>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                    <li data-target="#mycarousel" data-slide-to="3"></li>
+                    <li data-target="#mycarousel" data-slide-to="4"></li>
+                    <li data-target="#mycarousel" data-slide-to="5"></li>
+                    <li data-target="#mycarousel" data-slide-to="6"></li>
+                    <li data-target="#mycarousel" data-slide-to="7"></li>
+                </ol>
+
+            </div>
+        </div>
+    </div>
+</body></html>

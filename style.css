@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+#imggrid {
+    font-size: 60px;
+}
+
+#myth {
+    height: 850px;
+    width: 1500;
+    padding-right: 400px;
+}
+
+#pheonix {
+    height: 30%;
+    width: 20%;
+}
+
+#Unicorns {
+    height: 30%;
+    width: 20%;
+}
+
+#Peryton {
+    height: 30%;
+    width: 20%;
+}
+
+#narwhal {
+    height: 30%;
+    width: 20%;
+}
+
+#snow {
+    height: 30%;
+    width: 20%;
+}
+
+#pegasus {
+    height: 30%;
+    width: 20%;
+}
+
+#dragon {
+    height: 30%;
+    width: 20%;
+}
+
+#hippogriff {
+    height: 30%;
+    width: 20%;
+}
+
+#imgslide{
+    font-size: 60px;
+}
+
+.navbar-brand{
+ font-size: 40px;
+}
+
+
+
